@@ -1,0 +1,2061 @@
+2014/09/27 18:44:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mobly_test.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/09/27 18:44:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mobly_test.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/09/28 03:59:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "teste".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('teste')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('teste')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/teste')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/teste
+---
+2014/09/28 04:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "viewall".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('viewall')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('viewall')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/viewall')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/viewall
+---
+2014/09/28 04:57:43 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "_criteria".' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CComponent->__call('_criteria', Array)
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveDataProvider->_criteria()
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:05:59 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:10:51 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:10:53 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in C:\Sites\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobly/index.php
+---
+2014/09/28 05:11:35 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:13:00 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:13:02 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:13:03 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:13:03 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:13:03 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'teste')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(28): CActiveRecord->__set('name', 'teste')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 05:25:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Sites\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory
+---
+2014/09/28 05:25:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Sites\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory...')
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory/1
+---
+2014/09/28 05:29:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Sites\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory...')
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory/1
+---
+2014/09/28 05:31:54 [error] [php] Non-static method CHttpRequest::getParam() should not be called statically, assuming $this from incompatible context (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:37)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetCategory/1
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (37)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 05:33:11 [error] [php] Non-static method CHttpRequest::getParam() should not be called statically, assuming $this from incompatible context (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:37)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetCategory/1
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (37)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 05:34:35 [error] [php] Object of class CHttpRequest could not be converted to string (C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:275)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\schema\CDbCommandBuilder.php(100): CMysqlCommandBuilder->bindValues()
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1350): CMysqlCommandBuilder->createFindCommand()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1456): MB_CATEGORY->query()
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(38): MB_CATEGORY->find()
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetCategory()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetCategory/1
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (38)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 05:38:32 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `MB_CATEGORY` `t` WHERE id=:id LIMIT 1.
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (27)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 05:38:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `MB_CATEGORY` `t` WHERE id=:id LIMIT 1' in C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(27): CActiveRecord->find('id=:id', Array)
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mobly/index.php/api/Category?id=1
+---
+2014/09/28 05:38:35 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `MB_CATEGORY` `t` WHERE id=:id LIMIT 1.
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (27)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 05:38:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `MB_CATEGORY` `t` WHERE id=:id LIMIT 1' in C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(27): CActiveRecord->find('id=:id', Array)
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 07:09:25 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `MB_CATEGORY` `t` WHERE id=:id LIMIT 1.
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (27)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 07:09:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT * FROM `MB_CATEGORY` `t` WHERE id=:id LIMIT 1' in C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(27): CActiveRecord->find('id=:id', Array)
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Category')
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Category')
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mobly/index.php/api/Category
+---
+2014/09/28 07:13:53 [error] [php] Undefined variable: arrayLista (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:34)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Category
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (34)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 07:17:08 [error] [php] include(fJSON.php): failed to open stream: No such file or directory (C:\Sites\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(34): spl_autoload_call()
+#1 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionCategory()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Category
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (34)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 07:20:37 [error] [php] Illegal string offset 'id' (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:42)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (42)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 07:21:13 [error] [php] Illegal string offset 'id' (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:42)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (42)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/28 07:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+---
+2014/09/28 07:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+---
+2014/09/28 07:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+---
+2014/09/28 07:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+---
+2014/09/28 07:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+---
+2014/09/28 07:34:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory?id=1
+---
+2014/09/29 04:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetCategory".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('GetCategory')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetCategory')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetCategory')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/GetCategory
+---
+2014/09/29 05:47:08 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT.0" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\Sites\wamp\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(59): CModel->offsetGet(0)
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionProduct()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Product')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Product')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/Product
+---
+2014/09/29 05:48:15 [error] [php] Use of undefined constant _attributes - assumed '_attributes' (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:59)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (59)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 05:48:29 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT._attributes" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('_attributes')
+#1 C:\Sites\wamp\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('_attributes')
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(59): CModel->offsetGet('_attributes')
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionProduct()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Product')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Product')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/Product
+---
+2014/09/29 05:51:58 [error] [php] Use of undefined constant CActiveRecord - assumed 'CActiveRecord' (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:59)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (59)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 05:52:33 [error] [php] Use of undefined constant _attributes - assumed '_attributes' (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:60)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (60)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 05:54:08 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT._attributes" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('_attributes')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(60): CActiveRecord->__get('_attributes')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionProduct()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Product')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Product')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Product
+---
+2014/09/29 05:55:06 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT.getMetaData" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('getMetaData')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(60): CActiveRecord->__get('getMetaData')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionProduct()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Product')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Product')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Product
+---
+2014/09/29 07:36:35 [error] [php] Trying to get property of non-object (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:62)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (62)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 07:37:10 [error] [php] Trying to get property of non-object (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:62)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (62)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 07:37:22 [error] [php] Trying to get property of non-object (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:62)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (62)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 07:39:56 [error] [php] Trying to get property of non-object (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:65)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (65)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 07:41:04 [error] [php] Trying to get property of non-object (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:64)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (64)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:05:38 [error] [php] Undefined variable: row_prod_cat (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:65)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/Product
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (65)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:06:59 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(68): CActiveRecord->__get('name')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionProduct()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Product')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Product')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Product
+---
+2014/09/29 08:07:07 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT_CATEGORY.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(68): CActiveRecord->__get('name')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionProduct()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Product')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/Product')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/Product
+---
+2014/09/29 08:37:02 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:118)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (118)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:37:04 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:118)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (118)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:38:31 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (124)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:38:32 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (124)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:38:32 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (124)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:38:33 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (124)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:38:34 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (124)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:39:57 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:118)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(13): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (118)
+in C:\Sites\wamp\www\mobly\index.php (13)
+2014/09/29 08:40:49 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:118)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (118)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 08:42:16 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:122)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (122)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 08:42:43 [error] [php] A session had already been started - ignoring session_start() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:2)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#2 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (2)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 08:42:53 [error] [php] Undefined variable: session (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:123)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (123)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 09:39:51 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "_sendResponse".' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(124): CComponent->__call('_sendResponse', Array)
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(124): ApiController->_sendResponse(501, 'Mode <b>create<...')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetShoppingCart()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('setshoppingcart')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/setshopping...')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/setshoppingcart
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/29 09:40:53 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "_getStatusCodeMessage".' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(155): CComponent->__call('_getStatusCodeM...', Array)
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(155): ApiController->_getStatusCodeMessage(501)
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(124): ApiController->_sendResponse(501, 'Mode <b>create<...')
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetShoppingCart()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('setshoppingcart')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/setshopping...')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/setshoppingcart
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/29 09:55:58 [error] [php] Missing argument 1 for CHttpRequest::getPost(), called in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php on line 115 and defined (C:\Sites\wamp\www\yii\framework\web\CHttpRequest.php:197)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (115)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 09:58:47 [error] [php] Missing argument 1 for CHttpRequest::getPost(), called in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php on line 115 and defined (C:\Sites\wamp\www\yii\framework\web\CHttpRequest.php:197)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (115)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 10:01:45 [error] [php] Missing argument 1 for CHttpRequest::getPost(), called in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php on line 115 and defined (C:\Sites\wamp\www\yii\framework\web\CHttpRequest.php:197)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (115)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 10:04:54 [error] [php] Missing argument 1 for CHttpRequest::getPost(), called in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php on line 115 and defined (C:\Sites\wamp\www\yii\framework\web\CHttpRequest.php:197)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (115)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 10:10:52 [error] [php] Invalid argument supplied for foreach() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:116)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (116)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 10:12:38 [error] [php] Invalid argument supplied for foreach() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:116)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (116)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 10:13:04 [error] [php] Invalid argument supplied for foreach() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:116)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (116)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 10:13:46 [error] [php] Invalid argument supplied for foreach() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:116)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (116)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:24:17 [error] [php] A session had already been started - ignoring session_start() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:123)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (123)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:24:17 [error] [php] A session had already been started - ignoring session_start() (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:123)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (123)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:34:38 [error] [exception.CException] exception 'CException' with message 'Property "CHttpSession.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(119): CComponent->__get('name')
+#1 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetShoppingCart()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetShoppingCart')
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetShopping...')
+#7 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+---
+2014/09/29 16:38:13 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:134)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (134)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:38:13 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:134)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (134)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:38:15 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:134)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (134)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:39:09 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:134)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (134)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:40:23 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:134)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (134)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:43:26 [error] [php] Undefined offset: 10 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:136)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (136)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:43:29 [error] [php] Undefined offset: 10 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:136)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (136)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:43:30 [error] [php] Undefined offset: 10 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:136)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (136)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:44:56 [error] [php] Undefined offset: 10 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:136)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (136)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 16:52:47 [error] [php] Missing argument 2 for CWebUser::setState(), called in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php on line 120 and defined (C:\Sites\wamp\www\yii\framework\web\auth\CWebUser.php:593)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (120)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:01:35 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (124)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:02:15 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:02:16 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:02:16 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:02:16 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:02:25 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:02:25 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:03:09 [error] [php] in_array() expects parameter 2 to be array, string given (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:126)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#2 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#4 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (126)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:04:44 [error] [php] Illegal string offset 'id' (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:127)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (127)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:44:27 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:131)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (131)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:48:11 [error] [php] Illegal offset type in isset or empty (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:131)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[0]=0&id[0]=10&qtd[0]=1&price[0]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (131)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:48:29 [error] [php] Illegal offset type in isset or empty (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:131)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[0]=0&id[0]=10&qtd[0]=1&price[0]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (131)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:48:39 [error] [php] Illegal offset type (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:133)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[0]=0&id[0]=10&qtd[0]=1&price[0]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (133)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:48:58 [error] [php] Illegal offset type (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:132)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[0]=0&id[0]=10&qtd[0]=1&price[0]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (132)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:51:26 [error] [php] Trying to get property of non-object (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:132)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[2]=2&id[2]=10&qtd[2]=1&price[2]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (132)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:51:46 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:132)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[2]=2&id[2]=10&qtd[2]=1&price[2]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (132)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:51:47 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:132)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[2]=2&id[2]=10&qtd[2]=1&price[2]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (132)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 17:53:01 [error] [php] Illegal offset type (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:132)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice[]=0&id[0]=10&qtd[0]=1&price[0]=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (132)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:00:46 [error] [php] Undefined variable: key (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:143)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (143)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:00:56 [error] [php] Undefined variable: key (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:146)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (146)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:00:57 [error] [php] Undefined variable: key (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:146)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (146)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:01:00 [error] [php] Undefined variable: key (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:147)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (147)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:03:56 [error] [php] Array to string conversion (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:143)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (143)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:03:57 [error] [php] Array to string conversion (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:143)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (143)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:04:21 [error] [php] Array to string conversion (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:144)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (144)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 18:04:22 [error] [php] Array to string conversion (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:144)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (144)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 19:32:04 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT.0" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\Sites\wamp\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(132): CModel->offsetGet(0)
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetShoppingCart()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetShoppingCart')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetShopping...')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+---
+2014/09/29 19:32:05 [error] [exception.CException] exception 'CException' with message 'Property "MB_PRODUCT.0" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\Sites\wamp\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(132): CModel->offsetGet(0)
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetShoppingCart()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetShoppingCart')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetShopping...')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/SetShoppingCart?indice=0&id=10&qtd=1&price=608.2
+---
+2014/09/29 21:21:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where login = demo and password = demo' at line 1. The SQL statement executed was: SELECT * FROM `MB_PRODUCT` `t` WHERE where login = demo and password = demo.
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (173)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 21:21:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where login = demo and password = demo' at line 1. The SQL statement executed was: SELECT * FROM `MB_PRODUCT` `t` WHERE where login = demo and password = demo' in C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(173): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetUser()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetUser')
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetUser')
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+---
+2014/09/29 21:22:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where login = demo and password = demo' at line 1. The SQL statement executed was: SELECT * FROM `MB_USERS` `t` WHERE where login = demo and password = demo.
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (173)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 21:22:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where login = demo and password = demo' at line 1. The SQL statement executed was: SELECT * FROM `MB_USERS` `t` WHERE where login = demo and password = demo' in C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(173): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetUser()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetUser')
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetUser')
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+---
+2014/09/29 21:23:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'. The SQL statement executed was: SELECT * FROM `MB_USERS` `t` WHERE login = "demo" and password = "demo".
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (173)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 21:23:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'. The SQL statement executed was: SELECT * FROM `MB_USERS` `t` WHERE login = "demo" and password = "demo"' in C:\Sites\wamp\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(173): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetUser()
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetUser')
+#9 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetUser')
+#10 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+---
+2014/09/29 21:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionGetUser".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionGetUser')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionGetUser')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/actionGetUs...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/29 21:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionGetUser".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionGetUser')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionGetUser')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/actionGetUs...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+---
+2014/09/29 21:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/Category
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+---
+2014/09/29 21:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/Product
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+---
+2014/09/29 21:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/GetShoppingCart
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+---
+2014/09/29 21:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "views".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('views')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('views')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/views/home....')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/views/home.php
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+---
+2014/09/29 21:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionGetUser".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionGetUser')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionGetUser')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/actionGetUs...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/actionGetUser?login={{login}}&password{{senha}}
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/29 21:46:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionGetUser".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionGetUser')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionGetUser')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/actionGetUs...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/actionGetUser?login=undefined&passwordundefined
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/29 21:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionGetUser".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionGetUser')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionGetUser')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/actionGetUs...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/actionGetUser?login=demo&password=demo
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/29 21:54:45 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:180)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (180)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:08:01 [error] [php] Undefined variable: login (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:168)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (168)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:08:02 [error] [php] Undefined variable: login (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:168)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (168)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:11:25 [error] [php] Array to string conversion (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:226)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (226)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:11:27 [error] [php] Array to string conversion (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:226)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=demo&password=demo
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (226)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:20:52 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:181)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (181)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:21:20 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:180)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (180)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:21:30 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:180)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (180)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:22:07 [error] [php] Undefined variable: model (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:206)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (206)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:52:28 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:54:15 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 22:55:21 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:03:48 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:06:25 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:06:39 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:08:20 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:08:51 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:09:15 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:187)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=&password=
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (187)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:50:09 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:50:39 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:51:39 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:56:00 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:56:12 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:56:49 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:58:08 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login={{login}}&password={{senha}}
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:58:59 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:59:22 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/29 23:59:23 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:190)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (190)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 00:06:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "SetPedido".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('SetPedido')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetPedido')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetPedido')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/SetPedido
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/30 00:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "SetPedido".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('SetPedido')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetPedido')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetPedido')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/GetUser?login=undefined&password=undefined
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/Category
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/Product
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/index.php/api/GetShoppingCart
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "views".' in C:\Sites\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('views')
+#1 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('views')
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/views/home....')
+#3 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/mobly/index.php/api/views/home.php
+HTTP_REFERER=http://localhost:8080/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:10:56 [error] [exception.CException] exception 'CException' with message 'Property "MB_SHOPPING_CART.title" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('title', 'pedido de exemp...')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(172): CActiveRecord->__set('title', 'pedido de exemp...')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetPedido()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetPedido')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetPedido')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/SetPedido
+---
+2014/09/30 00:31:45 [error] [php] Undefined variable: total_value (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:180)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/SetPedido
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (180)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 00:31:59 [error] [exception.CException] exception 'CException' with message 'Property "MB_SHOPPING_CART.shopping_cart_id" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('shopping_cart_i...', '2')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(195): CActiveRecord->__set('shopping_cart_i...', '2')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionSetPedido()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('SetPedido')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/SetPedido')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/SetPedido
+---
+2014/09/30 01:12:46 [error] [php] Undefined variable: idPedido (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:229)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetPedido
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (229)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 01:16:30 [error] [exception.CException] exception 'CException' with message 'Property "MB_SHOPPING_CART_ITENS.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(236): CActiveRecord->__get('name')
+#2 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetPedido()
+#3 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetPedido')
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetPedido')
+#8 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/mobly/index.php/api/GetPedido
+---
+2014/09/30 01:24:03 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:229)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetPedido?idPedido=8
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (229)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 01:24:11 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:229)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetPedido?idPedido=8
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (229)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 01:54:16 [error] [php] Undefined variable: arrayItens (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:235)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetPedido?idPedido=16
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (235)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 02:01:57 [error] [exception.CException] exception 'CException' with message 'Property "MB_SHOPPING_CART_ITENS.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\Sites\wamp\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('name')
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(221): CModel->offsetGet('name')
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetPedido()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetPedido')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetPedido')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/GetPedido?idPedido=18
+HTTP_REFERER=http://localhost:8080/mobly/index.php
+---
+2014/09/30 02:02:36 [error] [exception.CException] exception 'CException' with message 'Property "MB_SHOPPING_CART_ITENS.name" is not defined.' in C:\Sites\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\Sites\wamp\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('name')
+#2 C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php(221): CModel->offsetGet('name')
+#3 C:\Sites\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionGetPedido()
+#4 C:\Sites\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Sites\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Sites\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('GetPedido')
+#8 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/GetPedido')
+#9 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Sites\wamp\www\mobly\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/mobly/index.php/api/GetPedido?idPedido=18
+---
+2014/09/30 02:54:59 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:260)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (260)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 03:01:00 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:260)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (260)
+in C:\Sites\wamp\www\mobly\index.php (15)
+2014/09/30 03:01:37 [error] [php] Undefined offset: 0 (C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php:294)
+Stack trace:
+#0 C:\Sites\wamp\www\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\Sites\wamp\www\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\Sites\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Sites\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Sites\wamp\www\mobly\index.php(15): CWebApplication->run()
+REQUEST_URI=/mobly/index.php/api/GetUser?login=undefined&password=undefined
+in C:\Sites\wamp\www\mobly\protected\controllers\ApiController.php (294)
+in C:\Sites\wamp\www\mobly\index.php (15)
